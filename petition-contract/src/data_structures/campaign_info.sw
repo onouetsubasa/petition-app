@@ -14,11 +14,6 @@ pub struct CampaignInfo {
     total_signs: u64,
 }
 
-pub enum Identity {
-    Address: Address,
-    ContractId: ContractId,
-}
-
 impl CampaignInfo {
     /// Creates a new campaign.
     ///
